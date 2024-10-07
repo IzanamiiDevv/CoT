@@ -5,6 +5,7 @@ Welcome to **C++ of Things**! This repository is a comprehensive resource for bo
 ## Contents
 
 - [Introduction to C++](#introduction-to-c)
+- [Release Dates](#c-releases)
 - [Basic Concepts](#basic-concepts)
   - Variables and Data Types
   - Operators
@@ -32,6 +33,30 @@ Welcome to **C++ of Things**! This repository is a comprehensive resource for bo
 ## Introduction to C++
 
 C++ is a powerful, high-performance programming language used for system software, games, and many other applications. It builds on C by adding object-oriented features, making it both versatile and complex.
+
+## C++ Releases
+
+- **C with Classes (1979) :** Early version by Bjarne Stroustrup, the foundation of C++.
+
+- **C++ (1983) :** First iteration introducing classes and basic OOP features.
+
+- **Cfront (1985) :** First commercial implementation of C++, compiling to C code.
+
+- **C++98 (1998) :** First standardized version of C++.
+
+- **C++03 (2003) :** Minor updates and bug fixes to C++98.
+
+- **C++11 (2011) :** Major update introducing significant new features.
+
+- **C++14 (2014) :** Incremental improvements over C++11.
+
+- **C++17 (2017) :** Added new features and libraries.
+
+- **C++20 (2020) :** Major update introducing concepts, modules, coroutines, and more.
+
+- **C++23 (2023) :** Latest version, with further improvements and new features.
+
+
 
 ## Basic Concepts
 
