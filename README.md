@@ -31,9 +31,13 @@ Welcome to **C++ of Things**! This repository is a comprehensive resource for bo
 - [Projects and Exercises](#projects-and-exercises)
 - [Contributing](#contributing)
 
+---
+
 ## Introduction to C++
 
 C++ is a powerful, high-performance programming language used for system software, games, and many other applications. It builds on C by adding object-oriented features, making it both versatile and complex.
+
+---
 
 ## C++ Releases
 
@@ -56,6 +60,8 @@ C++ is a powerful, high-performance programming language used for system softwar
 - **C++20 (2020) :** Major update introducing concepts, modules, coroutines, and more.
 
 - **C++23 (2023) :** Latest version, with further improvements and new features.
+
+---
 
 ## GNU Compiler Syntax
 
@@ -138,7 +144,7 @@ Here’s a list of some commonly used `gcc` and `g++` flags, organized by catego
 - **`--help`**: Show help for `gcc` or `g++` with available options and flags.
 - **`-pipe`**: Use pipes rather than temporary files for communication between processes.
 
-This list includes the most frequently used flags, but you can use `gcc --help` or `man gcc` to see a complete list and more details.
+---
 
 ## Basic Concepts
 
