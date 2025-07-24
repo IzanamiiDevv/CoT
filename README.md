@@ -64,85 +64,7 @@ C++ is a powerful, high-performance programming language used for system softwar
 ---
 
 ## GNU Compiler Syntax
-
-Here’s a list of some commonly used `gcc` and `g++` flags, organized by category:
-
-### Basic Compilation Flags
-
-- **`-c`**: Compile without linking (produces an object file).
-- **`-o <file>`**: Specify the output file name.
-- **`-I <dir>`**: Add directory to the list of directories searched for include files.
-- **`-L <dir>`**: Add directory to the list of directories searched for libraries.
-- **`-l<name>`**: Link with library `lib<name>.so` or `lib<name>.a`.
-
-### Optimization Flags
-
-- **`-O0`**: No optimization (default).
-- **`-O1`, `-O2`, `-O3`**: Increasing levels of optimization, with `-O3` being the highest.
-- **`-Ofast`**: Aggressive optimizations, may not adhere strictly to standards.
-- **`-Os`**: Optimize for size.
-- **`-Og`**: Optimize for debugging (better debugging experience).
-
-### Debugging Flags
-
-- **`-g`**: Generate debugging information.
-- **`-g3`**: Includes even more debugging information.
-- **`-ggdb`**: Generates debugging information specifically for use with GDB.
-
-### Warning and Error Flags
-
-- **`-Wall`**: Enable commonly used warnings.
-- **`-Wextra`**: Enable additional warnings beyond `-Wall`.
-- **`-Werror`**: Treat warnings as errors.
-- **`-Wpedantic`**: Enforce strict ISO C and ISO C++ standards.
-- **`-Wshadow`**: Warn when a variable shadows another.
-- **`-Wconversion`**: Warn about implicit type conversions that may lose information.
-
-### Language and Standard Flags
-
-- **`-std=<standard>`**: Specify the language standard (e.g., `-std=c99`, `-std=c11`, `-std=c++11`, `-std=c++17`, `-std=c++20`).
-- **`-ansi`**: Equivalent to `-std=c89` or `-std=c++98`.
-- **`-fpermissive`**: Allows some non-standard code to compile.
-
-### Linking Flags
-
-- **`-shared`**: Create a shared library.
-- **`-static`**: Link libraries statically.
-- **`-static-libgcc`**, **`-static-libstdc++`**: Statically link `libgcc` and `libstdc++`.
-- **`-rdynamic`**: Add symbols to the dynamic symbol table (useful for debugging).
-- **`-Wl,<options>`**: Pass options to the linker.
-
-### Code Generation Flags
-
-- **`-fPIC`**: Generate position-independent code (used for shared libraries).
-- **`-fPIE`**: Generate position-independent executable.
-- **`-fstack-protector`**: Enable stack protection.
-- **`-march=<cpu>`**: Generate code optimized for a specific CPU (e.g., `-march=native`).
-- **`-mtune=<cpu>`**: Optimize for a specific CPU without restricting code to that CPU.
-
-### Profiling Flags
-
-- **`-pg`**: Enable profiling with `gprof`.
-- **`-fprofile-arcs`**, **`-ftest-coverage`**: Generate code for test coverage analysis with `gcov`.
-
-### Preprocessor Flags
-
-- **`-D<macro>`**: Define a macro (e.g., `-DDEBUG=1`).
-- **`-U<macro>`**: Undefine a macro.
-- **`-E`**: Only run the preprocessor and output the result.
-
-### C++ Specific Flags
-
-- **`-fno-exceptions`**: Disable C++ exception handling.
-- **`-fno-rtti`**: Disable C++ runtime type information (RTTI).
-- **`-fno-threadsafe-statics`**: Disable thread-safe statics initialization.
-
-### Other Common Flags
-
-- **`-v`**: Verbose output showing the compilation steps.
-- **`--version`**: Show the version of the compiler.
-- **`--help`**: Show help for `gcc` or `g++` with available options and flags.
-- **`-pipe`**: Use pipes rather than temporary files for communication between processes.
+Learn About GNU Compiler Syntax at [Compiler Syntax](./GNU%20Compiler/compiler.md).
 
 ---
 
@@ -150,7 +72,7 @@ Here’s a list of some commonly used `gcc` and `g++` flags, organized by catego
 
 ### Variables and Data Types
 
-Learn about different data types in C++, including fundamental types like `int`, `float`, `char`, and more.
+Learn about different data types in C++, including fundamental types like `int`, `float`, `char`, and more at [variable and data types](./variables%20and%20data%20types/variable_and_data_types.md).
 
 ### Operators
 
