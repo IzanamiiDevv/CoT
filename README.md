@@ -64,7 +64,7 @@ C++ is a powerful, high-performance programming language used for system softwar
 ---
 
 ## GNU Compiler Syntax
-Learn About GNU Compiler Syntax at [Compiler Syntax](./GNU%20Compiler/compiler.md).
+Learn About GNU Compiler Syntax at [Compiler Syntax](./Tools/GNU%20Compiler/compiler.md).
 
 ---
 
