@@ -1,6 +1,2 @@
----
-
-> ⚠️ **WARNING:** This page is under development.  
-> All contents are subject to change throughout the development process.
-
----
+> [!IMPORTANT]
+> This page is under development and content is subject to change.
