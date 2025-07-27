@@ -2,6 +2,13 @@
 
 Welcome to **C++ of Things**! This repository is a comprehensive resource for both new and advanced developers who want to enhance their skills in the C++ programming language. Whether you're just starting or looking to deepen your understanding of advanced concepts, this repository provides an organized collection of C++ features, concepts, and best practices.
 
+---
+
+> ⚠️ **WARNING:** This page is under development.  
+> All contents are subject to change throughout the development process.
+
+---
+
 ## Contents
 
 - [Introduction to C++](#introduction-to-c)
