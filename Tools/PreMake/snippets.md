@@ -8,17 +8,20 @@ This page provides a curated set of essential and commonly used code snippets fo
 
 ---
 
+# **Project Startup:**
+
+### Include it in your Porject By:
+```cmd
+curl https://raw.githubusercontent.com/IzanamiiDevv/CoT/refs/heads/main/Tools/PreMake/templates/template_1.lua > premake5.lua
+```
+
+
+# **Project Snippets**:
+
 ## 🛠️ Basic Executable Configuration
 
 ```lua
 project_name = "MyProject"
-workspace(project_name)
-    configurations { "Release", "Debug", "PreProcess" }
-    platforms { "Win32", "Win64" }
-    defaultplatform "Win64"
-    toolset "gcc"
-    startproject(project_name)
-
 project(project_name)
     kind "ConsoleApp"
     language "C"
@@ -50,7 +53,7 @@ project(project_name)
 
 ### Include it in your Porject By:
 ```cmd
-
+curl https://raw.githubusercontent.com/IzanamiiDevv/CoT/refs/heads/main/Tools/PreMake/templates/basic_exe_config.lua > execonf.lua
 ```
 
 ---
@@ -85,7 +88,7 @@ project(project_name)
 ```
 ### Include it in your Porject By:
 ```cmd
-
+curl https://raw.githubusercontent.com/IzanamiiDevv/CoT/refs/heads/main/Tools/PreMake/templates/basic_lib_static_config.lua > staticdll.lua
 ```
 
 ---
@@ -119,14 +122,7 @@ project "winapi_dll"
         targetdir "bin/%{cfg.platform}/Release"
         objdir "obj/%{cfg.platform}/Release"
 ```
-### Include it in your Porject By:
+### Include it in your Porject By:   
 ```cmd
-
+curl https://raw.githubusercontent.com/IzanamiiDevv/CoT/refs/heads/main/Tools/PreMake/templates/basic_lib_dynamic_config.lua > dynamiclib.lua
 ```
-
----
-
-> ⚠️ **WARNING:** This page is under development.  
-> All contents are subject to change throughout the development process.
-
----
